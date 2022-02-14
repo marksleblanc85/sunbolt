@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Sunbolt - Test Page</title>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+		
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,200i,300,300i,400,400i,500,500i,900,900i" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<!-- 
+		mmm look at all that tight, nicely indented markup... 
+
+		One main thing to note:
+			All of the SVG's rendered here aren't actual SVG's. 
+			The Photoshop document provided didn't contain vectors inside the SmartObjects, just flat rasters. 
+			Easily fixed with correct source art.
+
+		Scripts at the bottom.
+	-->
+	<body class="home">
+		<!-- cover up the whole page until everything is loaded, then show via jQuery (213) -->
+		<div id="cover"></div>
+		<!-- end -->
+		<section id="intro">
+			<header id="header" class="clearfix">
+				<div class="col-xs-8">
+					<a href="/" class="pull-left logo svg">
+						<object type="image/svg+xml" data="images/sunbolt-logo.png" width="300" height="41"></object>
+					</a>
+				</div>
+				<div class="col-xs-4">					
+					<nav id="mainnav" class="navbar navbar-toggleable-md navbar-light pull-right mr-auto">
+					  	<a href="#" data-toggle="dropdown" class="dropdown-toggle custom-toggler burger">
+					  		<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+					  	</a>
+					    <ul class="dropdown-menu">
+					        <li class="active"><a href="#">Home</a></li>
+					        <li><a href="#">Products</a></li>
+					        <li><a href="#">About</a></li>
+					        <li><a href="#">Contact</a></li>
+					        <li class="active hidden-lg hidden-xl"><a href="#">Request a Quote</a></li>
+					    </ul>
+					</nav>
+					<div class=" hidden-xs hidden-sm">
+						<a href="" class="btn btn-primary pull-right caps">Request a Quote</a>
+					</div>
+				</div>
+				
+			</header>
+			<!-- show HTML animated version of hero message on desktops -->
+			<section class="container rel mb75 hidden-sm hidden-xs hidden-md">
+				<div class="col-lg-10">
+					<h1><span>Productivity Just Got</span> <span>Brighter</span></h1>
+				</div>
+				<img src="images/product-1.png" width="960" class="product pull-right fadein top">
+			</section>
+			<!-- end -->
+			<!-- show flattened version on mobile -->
+			<div class="container hidden-lg hidden-xl mobile-hero">
+				<img src="images/intro-mobile.png" class="img">
+			</div>
+			<!-- end -->
+			<section class="container stats-icons">
+					<object type="image/svg+xml" data="images/stats-icons.svg" width="829" height="84" class="pull-left col-lg-8 col-lg-offset-1 col-md-7 col-sm-7 col-xs-12"></object>
+					<div class="col-lg-2 col-md-4 col-xs-12 pull-left mr-right text-center">
+						<a href="" class="btn btn-inverse caps">Request a Quote</a>
+					</div>
+			</section>
+		</section>
+		<section id="section-2" class="clearfix">
+			<div class="col-lg-4 col-lg-offset-4 text-center rel">
+				<img src="images/product-1.png" width="600" class="hidden-md hidden-sm hidden-xs prod-left slidein left">
+				<img src="images/product-2.png" width="600" class="hidden-md hidden-sm hidden-xs prod-right slidein">
+				<h3 class="mt125">INTRODUCING</h3>
+				<h2 class="caps">Solar Work Stations</h2>
+				<p class="mb50">
+					Sustainable productivity, powered by the world’s most dependable resource—the sun. Discover your outdoor workspace:
+				</p>
+				<object type="image/svg+xml" data="images/section-2-products.svg" width="900" height="72" class="mb100"></object>
+			</div>
+		</section>
+		<section id="section-3" class="inv">
+			<div class="container">
+				<div class="col-lg-4">
+					<h3 class="caps mt300">Powerful Solar Array</h3>
+					<p class="mt15">The only solar workstation with a 3/1 solar harvest to output power ratio; designed for optimal battery recharging and autonomy. Sunbolt delivers reliable power, even in worst-case weather conditions.</p>
+					<a href="#" class="svg pull-left mt30">
+						<object type="image/svg+xml" data="images/arrow-right.svg" width="46" height="27"></object>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section id="section-4" class="text-center clearfix">
+			<div class="col-lg-6 col-lg-offset-3 mb300">
+				<h4 class="caps mt100 mb50">Clean. Renewable. Productivity.</h4>	
+				<p>What comes to mind when you think of the outdoors? Sunshine? The bright blue sky? Fresh air? We think of ENERGY. With Sunbolt, performance meets at the crossroads of smart and sustainable.</p>		
+			</div>
+		</section>
+		<section id="section-5" class="text-center">
+			<div class="container">
+				<div class="col-lg-12 inv mb75 pullup">
+					<ul class="owl-carousel owl-theme">
+						<li class="carousel-slot" data-dot="<p>Universities</p>">
+							<img src="images/slider-1.jpg" alt="">
+						</li>
+						<!-- delicious meaty placeholders -->
+						<li class="carousel-slot" data-dot="<p>Corporate Parks</p>">
+							<img src="https://baconmockup.com/1289/746" alt="">
+						</li>
+						<li class="carousel-slot" data-dot="<p>Outdoor Malls</p>" >
+							<img src="https://baconmockup.com/1289/745" alt="">
+						</li>
+						<li class="carousel-slot" data-dot="<p>Resorts</p>" >
+							<img src="https://baconmockup.com/1289/747" alt="">
+						</li>
+						<li class="carousel-slot" data-dot="<p>Theme Parks</p>" >
+							<img src="https://baconmockup.com/1289/744" alt="">
+						</li>
+					</ul>
+				</div>		
+			</div>
+		</section>
+		<section id="section-6" class="clearfix">
+			<div class="col-lg-6 wild"></div>
+			<div class="col-lg-5 col-md-12">
+				<div class="ml50 mt75">
+					<h3 class="lite caps">Featured Case Study</h3>
+					<h2 class="caps">
+						How does Sunbolt power productivity?
+					</h2>
+					<p>
+						The University of California, Riverside reprogrammed their campus with SUNBOLT.
+					</p>
+					<a href="" class="mt50 mb100 btn btn-inverse btn-knockout caps">Find Out How</a>
+				</div>
+			</div>
+			<div class=" col-md-offset-2"></div>
+		</section>
+		<section id="section-7">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 text-center mt100">
+						<object type="image/svg+xml" data="images/icon-quote.svg" width="152" height="133" class="mb30"></object>
+						<h5 class="caps mb40">Request a Quote Today</h5>
+						<p>Bacon ipsum dolor amet tenderloin doner ball tip frankfurter. Kielbasa jerky chicken filet mignon meatloaf. Capicola tail tongue ground round, pork chop cow cupim ribeye t-bone tri-tip jowl.</p>
+						<a href="" class="mt50 btn btn-inverse btn-knockout caps">Get Started</a>
+					</div>
+					<div class="col-lg-6 col-lg-offset-1  mt100">
+						<div class="ml75 text-center">
+							<object type="image/svg+xml" data="images/icon-signup.svg" width="152" height="133" class="mb30"></object>
+							<h5 class="caps mb40">Sign Up For Our Sunbolt Webinar</h5>
+							<p>Bacon ipsum dolor amet tenderloin doner ball tip frankfurter. Kielbasa jerky chicken filet mignon meatloaf. Capicola tail tongue ground round, pork chop cow cupim ribeye t-bone tri-tip jowl.</p>
+							<a href="" class="mt50 btn btn-inverse btn-knockout caps">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-8" class="mt100">
+			<div class="container clearfix text-center">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+					<a href="" class="svg mr25 mb0">
+						<object type="image/svg+xml" data="images/logo-campus-xl.svg" width="285" height="60" class="mt50 "></object>
+					</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  text-left">
+					<a href="" class="svg ml25 ">
+						<object type="image/svg+xml" data="images/logo-momentum.svg" width="345" height="46" class="mt50 mb14 "></object>
+					</a>
+				</div>
+			</div>
+		</section>
+		<footer id="footer" class="clearfix">
+			<div class="col-lg-3 col-xs-4">
+				<p><a href="" class="caps">Privacy</a> | <a href="tel:(267) 419-8496">(267) 419-8496</a></p>
+			</div>
+			<div class="col-lg-6 col-xs-4 text-center">
+				<a href="#" class="svg">
+					<object type="image/svg+xml" data="images/icon-fb.svg" width="39" height="39"></object>
+				</a>
+				<a href="#" class="svg">
+					<object type="image/svg+xml" data="images/icon-tw.svg" width="39" height="39"></object>
+				</a>
+				<a href="#" class="svg">
+					<object type="image/svg+xml" data="images/icon-ig.svg" width="39" height="39"></object>
+				</a>
+			</div>
+			<div class="col-lg-3 col-xs-4 text-right">
+				<p class="caps">Copyright &copy; 2018 Sunbolt</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.visible.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var owl = $('.owl-carousel');
+				owl.owlCarousel({
+					items: 1,
+					dots: true,
+					dotsData: true,
+					timeout: 0,
+					autoplay:true, 
+				    autoplayTimeout:3000,
+				    loop: true
+				});
+
+				/* this needs some work to bind the event to DOM clicks. */
+				$('.burger').click(function(){
+					$(this).toggleClass('open');
+				});
+				$(window).on('load', function() {
+				   $("#cover").fadeOut(100);
+				});
+			});
+
+			/* fire animations when scrolled to/visible */
+			$(window).scroll(function(event) {
+				$(".slidein").each(function(i, el) {
+					var el = $(el);
+					if (el.visible(true)) {
+					el.addClass("come-in"); 
+					} 
+				});
+			});
+		</script>
+	</body>
+</html>
